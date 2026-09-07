@@ -1,0 +1,24 @@
+{
+  "name": "learn-websockets",
+  "version": "1.0.0",
+  "description": "An exhaustive, production-grade WebSockets, real-time event streaming, and RFC 6455 masterclass.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/websockets.test.mjs"
+  },
+  "keywords": [
+    "websockets",
+    "realtime",
+    "rfc6455",
+    "networking",
+    "socketio",
+    "ws",
+    "redis",
+    "events",
+    "tcp",
+    "streaming"
+  ],
+  "author": "Manthan Ank",
+  "license": "MIT"
+}
