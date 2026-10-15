@@ -2,10 +2,21 @@
   "name": "learn-websockets",
   "version": "1.0.0",
   "description": "An exhaustive, production-grade WebSockets, real-time event streaming, and RFC 6455 masterclass.",
-  "main": "index.js",
+  "main": "dist/server.js",
   "type": "module",
   "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
     "test": "node --test tests/websockets.test.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
   },
   "keywords": [
     "websockets",
@@ -19,6 +30,6 @@
     "tcp",
     "streaming"
   ],
-  "author": "Manthan Ank",
+  "author": "The Learning Hub",
   "license": "MIT"
 }
